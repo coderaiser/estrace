@@ -3,7 +3,7 @@ import {
     cutEnv,
 } from 'madrun';
 
-const NODE_OPTIONS = `'--loader ./lib/mock-import.js'`;
+const NODE_OPTIONS = `'--loader ./lib/estrace.js'`;
 const testEnv = {
     NODE_OPTIONS,
 };

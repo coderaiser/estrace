@@ -36,32 +36,33 @@ lint();
 function lint(runners) {
     const files = getFiles(runners);
     const checkedFiles = checkFiles(files);
-
+    
     return checkedFiles;
 }
 
 function getFiles(runners) {
     const files = [];
-
+    
     for (const run of runners) {
         files.push(...run());
     }
-
+    
     return files;
 }
 
 function lintFiles(files) {
     const linted = [];
-
+    
     for (const file of files) {
         linted.push(checkFile(file));
     }
-
+    
     return linted;
 }
 ```
 
 You will see something like this
+
 ```sh
 > node --loader estrace lint.js
 enter lint [ [] ]
@@ -75,4 +76,3 @@ exit lint
 ## License
 
 MIT
-

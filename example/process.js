@@ -23,7 +23,7 @@ function lintFiles(files) {
     for (const file of files) {
         linted.push(processFile(file));
     }
-   
+    
     return linted;
 }
 
