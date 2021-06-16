@@ -1,3 +1,3 @@
-import {process} from './process.js';
+import {process} from './lint.js';
 
 process([]);

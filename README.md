@@ -65,12 +65,12 @@ You will see something like this
 
 ```sh
 > node --loader estrace lint.js
-enter lint [ [] ]
-enter getFiles [ [] ]
-exit getFiles
-enter lintFiles [ [] ]
-exit lintFiles
-exit lint
+enter process [ [] ] (file:///Users/coderaiser/estrace/example/lint.js)
+enter getFiles [ [] ] (file:///Users/coderaiser/estrace/example/lint.js)
+exit getFiles file:///Users/coderaiser/estrace/example/lint.js)
+enter lintFiles [ [] ] (file:///Users/coderaiser/estrace/example/lint.js)
+exit lintFiles file:///Users/coderaiser/estrace/example/process.js)
+exit process file:///Users/coderaiser/estrace/example/process.js)
 ```
 
 ## License
