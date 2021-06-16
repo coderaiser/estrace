@@ -1,5 +1,7 @@
 const processFile = (a) => a;
 
+process([]);
+
 export function process(runners) {
     const files = getFiles(runners);
     const linted = lintFiles(files);
