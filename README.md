@@ -11,7 +11,7 @@
 [CoverageURL]: https://coveralls.io/github/coderaiser/estrace?branch=master
 [CoverageIMGURL]: https://coveralls.io/repos/coderaiser/estrace/badge.svg?branch=master&service=github
 
-Trace functions in Node.js [EcmaScript Modules](https://nodejs.org/api/esm.html#esm_modules_ecmascript_modules).
+Trace functions in Node.js [EcmaScript Modules](https://nodejs.org/api/esm.html#esm_modules_ecmascript_modules). For CommonJS use [njsTrace](https://github.com/ValYouW/njsTrace).
 
 ## Install
 
