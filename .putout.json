@@ -1,6 +1,6 @@
 {
     "match": {
-        "lib/log.js": {
+        "{example,lib/log.js}": {
             "remove-console": "off"
         }
     }

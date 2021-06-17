@@ -84,6 +84,42 @@ export /* __estrace.ignore */ function enter() {
 
 And `ESTrace` want touch it.
 
+## Using as plugin
+
+First of all `ESTrace` is plugin for [putout](https://github.com/coderaiser/putout) and it can be used independely:
+
+```js
+import putout from 'putout';
+import estracePlugin from 'estrace/plugin';
+
+const source = `
+    const fn = (a) => a;
+`;
+
+const {code} = putout(source, {
+    plugins: [
+        ['estrace', estracePlugin],
+    ],
+});
+
+console.log(code);
+```
+
+If you need to pass `url`, you can with help of `rules` :
+
+```js
+const {code} = putout(source, {
+    rules: {
+        estrace: ['on', {
+            url: 'file://hello.js',
+        }],
+    },
+    plugins: [
+        ['estrace', estracePlugin],
+    ],
+});
+```
+
 ## License
 
 MIT

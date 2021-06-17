@@ -6,7 +6,10 @@
   "description": "trace functions of EcmaScript modules",
   "homepage": "http://github.com/",
   "main": "./lib/estrace.js",
-  "exports": "./lib/estrace.js",
+  "exports": {
+    ".": "./lib/estrace.js",
+    "./plugin": "./lib/trace/plugin-trace/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/coderaiser/estrace.git"
