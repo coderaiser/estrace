@@ -1,6 +1,6 @@
 {
     "match": {
-        "example": {
+        "lib/estrace.js": {
             "remove-console": "off"
         }
     }
