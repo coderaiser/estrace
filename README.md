@@ -65,10 +65,10 @@ You will see something like this
 
 ```sh
 > node --loader estrace lint.js
-..💣  process() file:///Users/coderaiser/estrace/example/lint.js:🤷
-....💣  getFiles() file:///Users/coderaiser/estrace/example/lint.js:12
+..💣 process() file:///Users/coderaiser/estrace/example/lint.js:🤷
+....💣 getFiles() file:///Users/coderaiser/estrace/example/lint.js:12
 ....💥 getFiles -> [] file:///Users/coderaiser/estrace/example/lint.js:12
-....💣  lintFiles() file:///Users/coderaiser/estrace/example/lint.js:22
+....💣 lintFiles() file:///Users/coderaiser/estrace/example/lint.js:22
 ....💥 lintFiles -> [] file:///Users/coderaiser/estrace/example/lint.js:22
 ..💥 process -> [] file:///Users/coderaiser/estrace/example/lint.js:🤷
 ```
