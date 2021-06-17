@@ -78,7 +78,7 @@ You will see something like this
 When you need to ignore a function, just add `__estrace.ignore()` before function:
 
 ```js
-export /* __estrace.ignore */ function enter() {
+export /* __estrace.ignore() */ function enter() {
 }
 ```
 
