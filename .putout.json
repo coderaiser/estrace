@@ -1,6 +1,6 @@
 {
     "match": {
-        "lib/estrace.js": {
+        "lib/log.js": {
             "remove-console": "off"
         }
     }
