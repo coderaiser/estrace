@@ -1,3 +1,10 @@
+2021.06.18, v1.4.3
+
+fix:
+- (estrace) enter: arguments -> last parameter
+
+
+
 2021.06.18, v1.4.2
 
 fix:
