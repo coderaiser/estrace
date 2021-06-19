@@ -82,7 +82,7 @@ export /* __estrace.ignore() */ function enter() {
 }
 ```
 
-And `ESTrace` want touch it.
+And `ESTrace` won't touch it.
 
 ## Using as plugin
 
