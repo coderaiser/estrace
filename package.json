@@ -1,6 +1,6 @@
 {
   "name": "estrace",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "type": "module",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "trace functions of EcmaScript modules",
