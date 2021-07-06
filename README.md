@@ -140,6 +140,42 @@ const {code} = putout(source, {
     ],
 });
 ```
+#### Supported function types:
+
+— `FunctionDeclaration` (named):
+
+```js
+function hello() {
+    return 'world';
+}
+```
+
+— `FunctionExpression` (anonymous):
+
+```js
+hello(function(word) {
+    return `hello ${word}`;
+});
+```
+
+— `ArrowFunctionExpression` (arrow):
+
+```js
+hello((word) => {
+    return `hello ${word}`;
+});
+```
+
+— `ClassMethod` (method):
+
+```js
+class Hello {
+    hello(word) {
+        return `hello ${word}`;
+    }
+}
+```
+
 
 ## License
 
