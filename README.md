@@ -104,6 +104,8 @@ const {code} = putout(source, {
 console.log(code);
 ```
 
+### Passing file url
+
 If you need to pass `url`, you can with help of `rules` :
 
 ```js
@@ -111,6 +113,26 @@ const {code} = putout(source, {
     rules: {
         estrace: ['on', {
             url: 'file://hello.js',
+        }],
+    },
+    plugins: [
+        ['estrace', estracePlugin],
+    ],
+});
+```
+
+### Exclude functions
+
+When you need to `exclude` some kinds of functions, you can use universal [cross-plugin way](https://github.com/coderaiser/putout#exclude):
+
+```js
+const {code} = putout(source, {
+    rules: {
+        estrace: ['on', {
+            url: 'file://hello.js',
+            exclude: [
+                'ArrowFunctionExpression',
+            ],
         }],
     },
     plugins: [
