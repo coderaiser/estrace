@@ -3,6 +3,12 @@
         "node/no-unsupported-features/es-syntax": "off",
         "node/no-missing-import": "off"
     },
+    "overrides": [{
+        "files": "*.md{js}",
+        "rules": {
+            "prefer-arrow-callback": "off"
+        }
+    }],
     "extends": [
         "plugin:node/recommended",
         "plugin:putout/recommended"
