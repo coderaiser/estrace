@@ -1,3 +1,10 @@
+2021.07.08, v1.7.1
+
+fix:
+- (estrace) plugin-trace: rm useless buildReturn
+
+
+
 2021.07.08, v1.7.0
 
 feature:
