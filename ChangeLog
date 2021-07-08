@@ -1,3 +1,10 @@
+2021.07.08, v1.7.0
+
+feature:
+- (estrace) add try-finally (#2)
+
+
+
 2021.06.29, v1.6.1
 
 fix:
