@@ -1,3 +1,10 @@
+2021.07.23, v2.0.0
+
+feature:
+- (estrace) changed plugin api: estrace -> estrace/trace
+
+
+
 2021.07.23, v1.8.0
 
 feature:
