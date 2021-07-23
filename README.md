@@ -112,7 +112,7 @@ If you need to pass `url`, you can with help of `rules` :
 ```js
 const {code} = putout(source, {
     rules: {
-        estrace: ['on', {
+        'estrace/trace': ['on', {
             url: 'file://hello.js',
         }],
     },
