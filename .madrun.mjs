@@ -12,7 +12,7 @@ export default {
     'test': () => `tape 'test/**/*.js' 'lib/**/*.spec.js'`,
     'trace:test': () => [traceEnv, `tape 'test/**/*.js' 'lib/**/*.spec.js'`],
     'coverage': async () => `c8 --exclude="lib/**/{fixture,*.spec.js}" ${await cutEnv('test')}`,
-    'lint': () => 'putout .',
+    'lint': () => 'putout . --raw',
     'fresh:lint': () => run('lint', '--fresh'),
     'lint:fresh': () => run('lint', '--fresh'),
     'fix:lint': () => run('lint', '--fix'),
