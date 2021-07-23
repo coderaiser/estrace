@@ -129,7 +129,7 @@ When you need to `exclude` some kinds of functions, you can use universal [cross
 ```js
 const {code} = putout(source, {
     rules: {
-        estrace: ['on', {
+        'estrace/trace': ['on', {
             url: 'file://hello.js',
             exclude: [
                 'ArrowFunctionExpression',

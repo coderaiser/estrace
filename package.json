@@ -8,7 +8,7 @@
   "main": "./lib/estrace.js",
   "exports": {
     ".": "./lib/estrace.js",
-    "./plugin": "./lib/trace/plugin-trace/index.js"
+    "./plugin": "./lib/trace/plugin.js"
   },
   "repository": {
     "type": "git",
