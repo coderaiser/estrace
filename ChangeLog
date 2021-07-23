@@ -1,3 +1,10 @@
+2021.07.23, v1.8.0
+
+feature:
+- (estrace) add support of multiline template literals (#3)
+
+
+
 2021.07.08, v1.7.1
 
 fix:
