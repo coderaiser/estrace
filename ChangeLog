@@ -1,3 +1,10 @@
+2021.07.23, v2.1.0
+
+feature:
+- (estrace) plugin: simplify using as dynamic import
+
+
+
 2021.07.23, v2.0.0
 
 feature:
