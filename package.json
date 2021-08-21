@@ -4,7 +4,6 @@
   "type": "module",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "trace functions of EcmaScript modules",
-  "homepage": "http://github.com/",
   "main": "./lib/estrace.js",
   "exports": {
     ".": "./lib/estrace.js",
