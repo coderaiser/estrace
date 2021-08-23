@@ -34,7 +34,7 @@
     "watch:coverage": "madrun watch:coverage"
   },
   "dependencies": {
-    "putout": "^18.0.0"
+    "putout": "^19.0.0"
   },
   "license": "MIT",
   "devDependencies": {
