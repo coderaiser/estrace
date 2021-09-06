@@ -48,7 +48,7 @@
     "nodemon": "^2.0.2",
     "runsome": "^1.0.0",
     "simport": "^1.2.0",
-    "supertape": "^5.1.0"
+    "supertape": "^6.0.5"
   },
   "engines": {
     "node": ">=14"
