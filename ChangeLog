@@ -1,3 +1,11 @@
+2021.09.06, v2.3.0
+
+feature:
+- (estrace) add ability to import plugin as tuple (#4)
+- (estrace) add ability to import tuple
+- (package) supertape v6.0.5
+
+
 2021.08.23, v2.2.1
 
 feature:
