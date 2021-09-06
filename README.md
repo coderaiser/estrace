@@ -167,6 +167,7 @@ const {code} = putout(source, {
 });
 
 console.log(code);
+```
 
 #### Supported function types:
 
