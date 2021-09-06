@@ -90,7 +90,7 @@ First of all `ESTrace` is plugin for [putout](https://github.com/coderaiser/puto
 
 ```js
 import putout from 'putout';
-import estracePlugin from 'estrace/plugin';
+import {estracePlugin} from 'estrace/plugin';
 
 const source = `
     const fn = (a) => a;
@@ -98,7 +98,7 @@ const source = `
 
 const {code} = putout(source, {
     plugins: [
-        ['estrace', estracePlugin],
+        estracePlugin,
     ],
 });
 
@@ -117,7 +117,7 @@ const {code} = putout(source, {
         }],
     },
     plugins: [
-        ['estrace', estracePlugin],
+        estracePlugin,
     ],
 });
 ```
@@ -137,10 +137,37 @@ const {code} = putout(source, {
         }],
     },
     plugins: [
-        ['estrace', estracePlugin],
+        estracePlugin,
     ],
 });
 ```
+
+### Overriding plugin name
+
+If for some reason you need to override the name of a plugin, you can use default import
+and name it in a way you like.
+
+```js
+import putout from 'putout';
+import funnyTracer from 'estrace/plugin';
+
+const source = `
+    const fn = (a) => a;
+`;
+
+const {code} = putout(source, {
+    rules: {
+        'funnyTracer/trace': ['on', {
+            url: 'file://hello.js',
+        }],
+    },
+    plugins: [
+        ['funnyTracer', funnyTracer],
+    ],
+});
+
+console.log(code);
+
 #### Supported function types:
 
 — `FunctionDeclaration` (named):
