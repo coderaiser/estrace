@@ -64,13 +64,13 @@ function lintFiles(files) {
 You will see something like this
 
 ```sh
-> node --loader estrace lint.js
-..💣 lint([]) file:///Users/coderaiser/estrace/example/lint.js:5
-....💣 getFiles([]) file:///Users/coderaiser/estrace/example/lint.js:12
-....💥 getFiles -> [] file:///Users/coderaiser/estrace/example/lint.js:12
-....💣 lintFiles([]) file:///Users/coderaiser/estrace/example/lint.js:22
-....💥 lintFiles -> [] file:///Users/coderaiser/estrace/example/lint.js:22
-..💥 lint([]) file:///Users/coderaiser/estrace/example/lint.js:5
+coderaiser@cloudcmd:~/estrace$ node --loader estrace example/lint.js
+..💣 lint([]) 15.68mb file:///Users/coderaiser/estrace/example/lint.js:5
+....💣 getFiles([]) 15.68mb file:///Users/coderaiser/estrace/example/lint.js:12
+....💥 getFiles -> void 15.69mb file:///Users/coderaiser/estrace/example/lint.js:12
+....💣 lintFiles([]) 15.69mb file:///Users/coderaiser/estrace/example/lint.js:22
+....💥 lintFiles -> void 15.69mb file:///Users/coderaiser/estrace/example/lint.js:22
+..💥 lint -> void 15.69mb file:///Users/coderaiser/estrace/example/lint.js:5
 ```
 
 ## Ignore function

@@ -34,6 +34,7 @@
     "watch:coverage": "madrun watch:coverage"
   },
   "dependencies": {
+    "format-io": "^2.0.0",
     "putout": "^19.0.0"
   },
   "license": "MIT",
