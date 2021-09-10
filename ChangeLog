@@ -1,3 +1,10 @@
+2021.09.10, v3.0.0
+
+feature:
+- (estrace) add support of __estrace_context (#5)
+- (estrace) add ability to show memory used
+
+
 2021.09.06, v2.3.0
 
 feature:
