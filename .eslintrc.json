@@ -6,7 +6,8 @@
     "overrides": [{
         "files": "*.md{js}",
         "rules": {
-            "prefer-arrow-callback": "off"
+            "prefer-arrow-callback": "off",
+            "no-var": "off"
         }
     }],
     "extends": [

@@ -73,6 +73,23 @@ coderaiser@cloudcmd:~/estrace$ node --loader estrace example/lint.js
 ..💥 lint -> void 15.69mb file:///Users/coderaiser/estrace/example/lint.js:5
 ```
 
+## How `ESTrace` works?
+
+Let's suppost you have a function: `const fn = (a) => a`. `EStrace` will replace it with:
+
+```js
+const fn = (a) => {
+    try {
+        var __estrace_context = __estrace.enter('<anonymous:2>', 'file://hello.js:2', arguments);
+        return a;
+    } finally {
+        __estrace.exit('<anonymous:2>', 'file://hello.js:2', __estrace_context);
+    }
+};
+```
+
+And you cat get more information about the way your code works.
+
 ## Ignore function
 
 When you need to ignore a function, just add `__estrace.ignore()` before function:
@@ -204,7 +221,6 @@ class Hello {
     }
 }
 ```
-
 
 ## License
 

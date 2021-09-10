@@ -8,8 +8,13 @@ const traceEnv = {
     NODE_OPTIONS,
 };
 
+const UPDATE_FIXTURE = {
+    UPDATE: 1,
+};
+
 export default {
     'test': () => `tape 'test/**/*.js' 'lib/**/*.spec.js'`,
+    'test:fix': async () => [UPDATE_FIXTURE, await cutEnv('test')],
     'trace:test': () => [traceEnv, `tape 'test/**/*.js' 'lib/**/*.spec.js'`],
     'coverage': async () => `c8 --exclude="lib/**/{fixture,*.spec.js}" ${await cutEnv('test')}`,
     'lint': () => 'putout . --raw',

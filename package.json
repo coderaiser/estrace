@@ -20,6 +20,7 @@
   ],
   "scripts": {
     "test": "madrun test",
+    "test:fix": "madrun test:fix",
     "trace:test": "madrun trace:test",
     "coverage": "madrun coverage",
     "lint": "madrun lint",
