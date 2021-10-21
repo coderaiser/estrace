@@ -22,7 +22,7 @@ Trace functions in Node.js [EcmaScript Modules](https://nodejs.org/api/esm.html#
 [Loaders](https://nodejs.org/api/esm.html#esm_loaders) used to get things done, run with `--loader` flag:
 
 ```sh
-node --loader estrace lint.js
+NODE_OPTIONS="'--loader estrace --no-warnings'" node lint.js
 ```
 
 ## Example
