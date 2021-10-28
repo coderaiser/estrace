@@ -1,12 +1,10 @@
-# ESTrace [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][DependencyStatusIMGURL]][DependencyStatusURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Coverage Status][CoverageIMGURL]][CoverageURL]
+# ESTrace [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Coverage Status][CoverageIMGURL]][CoverageURL]
 
 [NPMIMGURL]: https://img.shields.io/npm/v/estrace.svg?style=flat
-[DependencyStatusIMGURL]: https://img.shields.io/david/coderaiser/estrace.svg?style=flat
 [BuildStatusURL]: https://github.com/coderaiser/estrace/actions?query=workflow%3A%22Node+CI%22 "Build Status"
 [BuildStatusIMGURL]: https://github.com/coderaiser/estrace/workflows/Node%20CI/badge.svg
 [LicenseIMGURL]: https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
 [NPMURL]: https://npmjs.org/package/estrace "npm"
-[DependencyStatusURL]: https://david-dm.org/coderaiser/estrace "Dependency Status"
 [LicenseURL]: https://tldrlegal.com/license/mit-license "MIT License"
 [CoverageURL]: https://coveralls.io/github/coderaiser/estrace?branch=master
 [CoverageIMGURL]: https://coveralls.io/repos/coderaiser/estrace/badge.svg?branch=master&service=github
