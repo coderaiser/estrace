@@ -1,7 +1,4 @@
-import {
-    run,
-    cutEnv,
-} from 'madrun';
+import {run} from 'madrun';
 
 const NODE_OPTIONS = `'--loader ./lib/estrace.js'`;
 const traceEnv = {
@@ -14,9 +11,9 @@ const UPDATE_FIXTURE = {
 
 export default {
     'test': () => `tape 'test/**/*.js' 'lib/**/*.spec.js'`,
-    'test:fix': async () => [UPDATE_FIXTURE, await cutEnv('test')],
+    'test:fix': async () => [UPDATE_FIXTURE, await run('test')],
     'trace:test': () => [traceEnv, `tape 'test/**/*.js' 'lib/**/*.spec.js'`],
-    'coverage': async () => `c8 --exclude="lib/**/{fixture,*.spec.js}" ${await cutEnv('test')}`,
+    'coverage': async () => `c8 --exclude="lib/**/{fixture,*.spec.js}" ${await run('test')}`,
     'lint': () => 'putout . --raw',
     'fresh:lint': () => run('lint', '--fresh'),
     'lint:fresh': () => run('lint', '--fresh'),
@@ -24,7 +21,7 @@ export default {
     'report': () => 'c8 report --reporter=lcov',
     'watcher': () => 'nodemon -w test -w lib --exec',
     
-    'watch:test': async () => await run('watcher', `"${await cutEnv('test')}"`),
+    'watch:test': async () => await run('watcher', `"${await run('test')}"`),
     
     'watch:lint': async () => await run('watcher', `'npm run lint'`),
     'watch:tape': () => 'nodemon -w test -w lib --exec tape',
