@@ -9,6 +9,7 @@
     ".": "./lib/estrace.js",
     "./plugin": "./lib/trace/plugin.js"
   },
+  "commitType": "colon",
   "repository": {
     "type": "git",
     "url": "git://github.com/coderaiser/estrace.git"
