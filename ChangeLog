@@ -1,3 +1,14 @@
+2022.03.07, v4.0.0
+
+feature:
+- package: madrun v9.0.0
+- package: eslint-plugin-putout v14.4.0
+- package: @putout/test v5.1.0
+- package: supertape v7.2.0
+- package: putout v25.2.0
+- estrace: drop support of node < 16
+
+
 2022.01.13, v3.3.1
 
 feature:
