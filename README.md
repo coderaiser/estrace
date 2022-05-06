@@ -101,7 +101,7 @@ And `ESTrace` won't touch it.
 
 ## Using as plugin
 
-First of all `ESTrace` is plugin for [putout](https://github.com/coderaiser/putout) and it can be used independely:
+First of all `ESTrace` is plugin for 🐊[**Putout**](https://github.com/coderaiser/putout) and it can be used independely:
 
 ```js
 import putout from 'putout';
