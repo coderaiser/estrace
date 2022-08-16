@@ -28,7 +28,7 @@ NODE_OPTIONS="'--loader estrace --no-warnings'" node lint.js
 When you want to see report of the most hot function calls count use:
 
 ```sh
-NODE_OPTIONS="'--loader estrace/perf --no-warnings'" node lint.js
+NODE_OPTIONS="'--loader estrace/perf --no-warnings'" node example/perf.js
 ```
 
 ## Example
