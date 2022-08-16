@@ -23,6 +23,14 @@ Trace functions in Node.js [EcmaScript Modules](https://nodejs.org/api/esm.html#
 NODE_OPTIONS="'--loader estrace --no-warnings'" node lint.js
 ```
 
+## Perf
+
+When you want to see report of the most hot function calls count use:
+
+```sh
+NODE_OPTIONS="'--loader estrace/perf --no-warnings'" node lint.js
+```
+
 ## Example
 
 Let's suppose you want to trace `lint.js`:

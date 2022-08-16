@@ -1,0 +1,13 @@
+{
+    "check-coverage": true,
+    "exclude": [
+        ".*",
+        "*/example/*.js",
+        "*/perf.js",
+        "lib/**/*.spec.js"
+    ],
+    "branches": 100,
+    "lines": 100,
+    "functions": 100,
+    "statements": 100
+}
