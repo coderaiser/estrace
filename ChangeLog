@@ -1,3 +1,12 @@
+2023.07.06, v4.2.0
+
+feature:
+- c9b4ba3 package: putout v30.0.3
+- 07d0fb1 package: eslint-plugin-putout v18.0.0
+- 966b39f package: eslint-plugin-n v16.0.1
+- 08c276d package: c8 v8.0.0
+- bf443fc package: @putout/test v6.6.0
+
 2023.03.06, v4.1.2
 
 feature:
