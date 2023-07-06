@@ -2,6 +2,9 @@
     "match": {
         "{example,lib/log.js,lib/perf.js}": {
             "remove-console": "off"
+        },
+        "*.md": {
+            "convert-to-arrow-function": "off"
         }
     }
 }
