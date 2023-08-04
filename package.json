@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "format-io": "^2.0.0",
-    "putout": "^30.0.3"
+    "putout": "^31.0.0"
   },
   "license": "MIT",
   "devDependencies": {
