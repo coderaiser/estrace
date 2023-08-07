@@ -4,9 +4,8 @@ lint([]);
 
 export function lint(runners) {
     const files = getFiles(runners);
-    const linted = lintFiles(files);
     
-    return linted;
+    return lintFiles(files);
 }
 
 function getFiles(runners) {
@@ -28,4 +27,3 @@ function lintFiles(files) {
     
     return linted;
 }
-
