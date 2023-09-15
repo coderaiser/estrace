@@ -101,8 +101,8 @@ And you cat get more information about the way your code works.
 When you need to ignore a function, just add `__estrace.ignore()` before function:
 
 ```js
-export /* __estrace.ignore() */ function enter() {
-}
+export /* __estrace.ignore() */
+function enter() {}
 ```
 
 And `ESTrace` won't touch it.
@@ -120,9 +120,7 @@ const source = `
 `;
 
 const {code} = putout(source, {
-    plugins: [
-        estracePlugin,
-    ],
+    plugins: [estracePlugin],
 });
 
 console.log(code);
@@ -139,9 +137,7 @@ const {code} = putout(source, {
             url: 'file://hello.js',
         }],
     },
-    plugins: [
-        estracePlugin,
-    ],
+    plugins: [estracePlugin],
 });
 ```
 
@@ -159,9 +155,7 @@ const {code} = putout(source, {
             ],
         }],
     },
-    plugins: [
-        estracePlugin,
-    ],
+    plugins: [estracePlugin],
 });
 ```
 

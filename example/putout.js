@@ -12,9 +12,7 @@ const {code} = putout(source, {
             url: 'file://hello.js',
         }],
     },
-    plugins: [
-        estracePlugin,
-    ],
+    plugins: [estracePlugin],
 });
 
 console.log(code);

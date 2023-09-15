@@ -28,4 +28,3 @@ export default {
     
     'watch:coverage': async () => await run('watcher', await run('coverage')),
 };
-

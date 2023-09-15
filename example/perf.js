@@ -5,8 +5,6 @@ for (let i = 0; i < 100_000; i++) {
     hot();
 }
 
-function hot() {
-}
+function hot() {}
 
-function m() {
-}
+function m() {}
