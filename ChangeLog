@@ -1,3 +1,11 @@
+2023.12.10, v5.0.0
+
+feature:
+- 3d42692 estrace: eslint-plugin-putout v22.0.0
+- 189b5fb estrace: madrun v10.0.0
+- 30cd545 estrace: putout v34.0.0
+- a0ff35a estrace: drop support of node < 18
+
 2023.09.15, v4.2.3
 
 feature:
