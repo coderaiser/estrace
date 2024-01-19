@@ -1,3 +1,12 @@
+2024.01.19, v5.0.1
+
+feature:
+- a187e32 estrace: eslint-plugin-putout v22.3.0
+- b2a81cb estrace: c8 v9.1.0
+- 62608ea estrace: putout v35.0.0
+- 85e47b1 estrace: @putout/test v8.0.0
+- 202cb87 estrace: supertape v9.0.0
+
 2023.12.10, v5.0.0
 
 feature:
