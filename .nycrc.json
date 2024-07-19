@@ -4,7 +4,8 @@
         ".*",
         "*/example/*.js",
         "*/perf.js",
-        "lib/**/*.spec.js"
+        "lib/**/*.spec.js",
+        "**/*.config.*"
     ],
     "branches": 100,
     "lines": 100,
