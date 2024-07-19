@@ -1,3 +1,11 @@
+2024.07.19, v5.1.0
+
+feature:
+- fd2b4f5 estrace: eslint v9.7.0
+- 51b4ad1 estrace: c8 v10.1.2
+- 0473a10 estrace: putout v36.0.2
+- 5b723fb estrace: supertape v10.0.0
+
 2024.01.19, v5.0.1
 
 feature:
