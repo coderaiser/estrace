@@ -1,3 +1,9 @@
+2024.12.21, v5.1.1
+
+feature:
+- 116827f estrace: putout v37.5.0
+- d372239 estrace: eslint-plugin-putout v23.3.0
+
 2024.07.19, v5.1.0
 
 feature:
