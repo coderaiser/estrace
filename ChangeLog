@@ -1,3 +1,14 @@
+2025.09.07, v6.0.0
+
+feature:
+- bc508ed estrace: drop support of node < 20
+- 4451bc5 estrace: putout v40.7.1
+- 7f682ed estrace: madrun v11.0.2
+- 67051bb estrace: eslint-plugin-putout v28.0.5
+- b96db53 estrace: @putout/test v14.0.0
+- 610820f estrace: @putout/eslint-flat v3.0.1
+- 383a2c7 estrace: supertape v11.3.0
+
 2025.01.29, v5.1.2
 
 feature:
